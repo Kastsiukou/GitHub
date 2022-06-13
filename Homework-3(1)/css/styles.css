@@ -1,0 +1,85 @@
+@import "fonts.css";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.tabs__buttons div {
+  width: 200px;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 1px;
+  text-align: center;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.tab__active {
+  border-left: 1px solid silver;
+  border-top: 1px solid silver;
+  border-right: 1px solid silver;
+  background-color: white;
+  border-radius: 3px 3px 1px 0;
+}
+.tabs__carts__item {
+  width: 660px;
+}
+.tabs__carts__img img {
+  margin-left: 60px;
+  width: 470px;
+  padding-top: 2px;
+  display: block;
+}
+.tabs__carts div {
+  display: inline-block;
+  vertical-align: top;
+}
+.tabs_carts__img {
+  margin-left: 30px;
+}
+h3 {
+  margin-left: 100px;
+  margin-top: 50px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+}
+p {
+  margin-top: 50px;
+  margin-left: 100px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.tabs__carts {
+  border: 1px solid silver;
+  margin-top: -3px;
+}
+button {
+  width: 270px;
+  height: 58px;
+  margin-left: 100px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+  background-color: #ec7979;
+  margin-top: 27px;
+  border: none;
+  cursor: pointer;
+}
